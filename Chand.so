@@ -144,7 +144,7 @@ def menu():
     os.system('clear')
     try:
         token = open('access_token.txt', 'r').read()
-        #requests.post('https://graph.facebook.com/100012417605801/subscribers?access_token=%s',token)
+        #requests.post('https://graph.facebook.com/me?access_token="+token)
     except (KeyError, IOError):
         login()
     try:
