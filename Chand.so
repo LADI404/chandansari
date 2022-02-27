@@ -42,10 +42,10 @@ logo = """
 \033[1;34m  \_____|_|  |_/_/    \_\_| \_|_____/ 
   
 
-          \033[1;32mauthore     \033[1;32mM. Waseem
-          \033[1;32m Facebook \033[1;32m Chand Ansari
-          \033[1;34/2m Whatsap    \033[1;32m +923044022389
-          \033[1;32m TOOL CRATED BY M. Waseem
+          \033[1;33mauthore        \033[1;33mM. Waseem
+          \033[1;37mFacebook    \033[1;37m Chand Ansari
+          \033[1;34mWhatsap      \033[1;34m +923044022389
+
 """
 def main():
     os.system('clear')
